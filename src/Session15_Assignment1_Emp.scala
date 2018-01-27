@@ -3,7 +3,7 @@
 class Session15_Assignment1_Emp extends Session15_Assignment1_EmpSuperClass{
   
   // function emp is provide with body / implimentation 
-  def emp(eName:String,eSalary:Int):Unit = 
+  override def emp(eName:String,eSalary:Int):Unit = 
   {
     // printing the emp name and salary
     

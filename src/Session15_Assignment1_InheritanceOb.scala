@@ -14,7 +14,17 @@ object Session15_Assignment1_InheritanceOb {
     println("Printing from Object having Main function")
     println(" ")
     
+    
+    // Single/Simple Inheritance
+    
     //calling emp function of Session15_Assignment1_Emp class and passing emp name and emp salary
     ref.emp("SUJIT M K", 20000)
+    
+    //Multiple Inheritance
+    //creating object of Session15_Ass1_MultiClass and calling emp function 
+    
+    var ref2 = new Session15_Ass1_MultiClass()
+    ref2.print1()
+    ref2.print2()
   }
 }
